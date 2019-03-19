@@ -1,4 +1,4 @@
-# Biolab Activity Conf
+# Biolab Activity Config
 The default configuration for all Biolab activities. This project expects to be included in a Biolab activity as a submodule in `<appRootDir>/conf`.
 
 See the [Biolab Activity Template](https://github.com/CMUEberlyCenter/biolab-activity-template)
