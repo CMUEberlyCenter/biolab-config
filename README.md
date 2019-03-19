@@ -10,7 +10,7 @@ All these configuration files can be extended or overridden with their correspon
 
 ### npm
 
-[npm](https://github.com/npm/npm) is used for dependency management and build scripts.
+[npm](https://github.com/npm/cli) is used for dependency management and build scripts.
 
 Scripts are described in the activity template [README.md](https://github.com/CMUEberlyCenter/biolab-activity-template/blob/master/README.md). 
 
