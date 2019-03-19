@@ -10,9 +10,9 @@ All these configuration files can be extended or overridden with their correspon
 
 ### npm
 
-[npm] (https://github.com/npm/npm) is used for dependency management and build scripts.
+[npm](https://github.com/npm/npm) is used for dependency management and build scripts.
 
-Scripts are described in the activity template [README.md] (https://github.com/CMUEberlyCenter/biolab-activity-template/blob/master/README.md). 
+Scripts are described in the activity template [README.md](https://github.com/CMUEberlyCenter/biolab-activity-template/blob/master/README.md). 
 
 Required utility packages not otherwise discussed:
 
@@ -20,12 +20,12 @@ Required utility packages not otherwise discussed:
 * package-json-merge: Allow Biolab activities to gracefully add to and override the contents of `package-base.json`.
 
 ###  Babel
-[Babel] (https://github.com/babel/babel) is used for transpiling JS.
+[Babel](https://github.com/babel/babel) is used for transpiling JS.
 
 The module-resolver plugin sources an `alias.config.js` shared with the webpack configuration. The alias configuration is to resolve p5.* libraries at the @cmu-eberly-center scope.
 
 ### ESLint
-[ESLint] (https://github.com/eslint/eslint) is used to enforce style and analyze code for potential errors.
+[ESLint](https://github.com/eslint/eslint) is used to enforce style and analyze code for potential errors.
 
 Ignores `p5_*` variables that appear unused, so use variables like that for containing sketches. e.g.:
 
@@ -35,7 +35,7 @@ const p5_sketch = new P5(Sketch,'beaker');
 
 ### Jest
 
-[Jest] (https://github.com/facebook/jest) is used as the testing framework.
+[Jest](https://github.com/facebook/jest) is used as the testing framework.
 
 The Jest configuration, along with the rest of the submodule, expects to be in a subdirectory in the app root. Update `moduleDirectories` to look for the `node_modules` directory one level up.
 
@@ -45,13 +45,13 @@ Source files within `node_modules` are ignored when performing transformations b
 
 ### JSDoc
 
-[JSDoc] (https://github.com/jsdoc3/jsdoc) is used to generate documentation.
+[JSDoc](https://github.com/jsdoc3/jsdoc) is used to generate documentation.
 
 Nothing particularly special in this configuration.
 
 ### webpack
 
-[webpack] (https://github.com/webpack/webpack) is used to bundle assets.
+[webpack](https://github.com/webpack/webpack) is used to bundle assets.
 
 The build scripts, discussed in the activity template repo, generate a bundle in `<appRootDir>/dist`. Images, style, and transpiled js is included in the bundle. Linting is performed during build and a linting error when using the production config (e.g. during `npm run build`) will stop the bundling process.
 
