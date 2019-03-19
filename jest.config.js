@@ -1,5 +1,3 @@
-const { aliases } = require('./alias.config.js');
-
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
 
