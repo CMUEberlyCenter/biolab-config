@@ -1,7 +1,7 @@
 {
     "scripts": {
         "doc": "jsdoc --configure jsdoc.config.js",
-        "test": "jest --projects jest.config.js",
+        "test": "npm run test:coverage",
         "test:coverage": "jest --projects jest.config.js --coverage --no-cache --debug",
         "test:watch": "jest --projects jest.config.js --watch",
         "build": "npm run build:prod",
@@ -24,6 +24,7 @@
         "babel-merge": "^2.0.1",
         "babel-plugin-module-resolver": "^3.2.0",
         "cash-mv": "^0.2.0",
+        "coveralls": "^3.0.3",
         "css-loader": "^2.1.0",
         "eslint": "^5.15.1",
         "eslint-loader": "^2.1.2",
