@@ -17,6 +17,7 @@ Scripts are described in the activity template [README.md](https://github.com/CM
 Required utility packages not otherwise discussed:
 
 * cash-mv, rimraf: Cross-platform file/directory move and remove. You're welcome, Zach.
+* coveralls: Coverage reporting with a shiny badge. Automatically updated via Travis CI.
 * package-json-merge: Allow Biolab activities to gracefully add to and override the contents of `package-base.json`.
 
 ###  Babel
