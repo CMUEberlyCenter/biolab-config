@@ -5,6 +5,11 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
     template: path.join(__dirname, "../src/index.html"),
     filename: "index.html"
 });
+const StyleLintPlugin = require('stylelint-webpack-plugin');
+const styleLintPlugin = new StyleLintPlugin({
+    configFile: path.join(__dirname, "stylelint.config.js"),
+    files: ["src/**/*.css"]
+});
 
 module.exports = {
     entry: {
@@ -51,5 +56,5 @@ module.exports = {
     resolve: {
         alias: aliases
     },
-    plugins: [htmlWebpackPlugin]
+    plugins: [styleLintPlugin,htmlWebpackPlugin]
 };
