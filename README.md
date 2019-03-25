@@ -50,6 +50,9 @@ Source files within `node_modules` are ignored when performing transformations b
 
 Nothing particularly special in this configuration.
 
+### stylelint
+[stylelint](https://github.com/stylelint/stylelint) is used to enforce CSS style.
+
 ### webpack
 
 [webpack](https://github.com/webpack/webpack) is used to bundle assets.
